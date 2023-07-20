@@ -112,6 +112,11 @@ export default class CreateNextStack extends Command {
     vercel: Flags.boolean({
       description: "Adds Vercel. (Hosting)",
     }),
+
+    // Storybook
+    storybook: Flags.boolean({
+      description: "Adds Storybook. (Component library)",
+    }),
   }
 
   async run(): Promise<void> {

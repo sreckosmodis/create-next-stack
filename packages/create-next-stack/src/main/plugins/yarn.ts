@@ -24,6 +24,7 @@ export const yarnPlugin = createPlugin({
     updateYarn: {
       id: "updateYarn",
       description: "updating Yarn",
+      shouldRun: false,
       run: async () => {
         await runCommand("npm", [
           "i",

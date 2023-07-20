@@ -35,6 +35,7 @@ import { vercelPlugin } from "../plugins/vercel"
 import { yarnPlugin } from "../plugins/yarn"
 import { steps } from "../steps"
 import { printFinalMessages } from "./print-final-messages"
+import { storybookPlugin } from "../plugins/storybook"
 
 export const plugins: Plugin[] = [
   createNextStackPlugin,
@@ -64,6 +65,7 @@ export const plugins: Plugin[] = [
   plausiblePlugin,
   vercelPlugin,
   netlifyPlugin,
+  storybookPlugin,
 ]
 
 export const filterPlugins = (inputs: ValidCNSInputs): Plugin[] =>

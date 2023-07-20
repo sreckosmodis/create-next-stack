@@ -11,6 +11,7 @@ import { nextPlugin } from "./plugins/next"
 import { pnpmPlugin } from "./plugins/pnpm"
 import { prettierPlugin } from "./plugins/prettier"
 import { sassPlugin } from "./plugins/sass/sass"
+import { storybookPlugin } from "./plugins/storybook"
 import { tailwindCSSPlugin } from "./plugins/tailwind-css"
 import { yarnPlugin } from "./plugins/yarn"
 
@@ -53,6 +54,9 @@ export const steps: Step[] = [
   mantinePlugin.steps.setUpMantine,
   chakraUIPlugin.steps.setUpChakraUI,
   materialUIPlugin.steps.setUpMaterialUI,
+
+  // Storybook installation
+  storybookPlugin.steps.installStorybook,
 
   // Uninstall temporary dependencies
   createNextStackPlugin.steps.uninstallTemporaryDependencies,

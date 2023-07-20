@@ -64,6 +64,7 @@ The table below provides an overview of the technologies currently supported by 
 | next-plausible      | [Website](https://next-plausible.vercel.app/) - [GitHub](https://github.com/4lejandrito/next-plausible)                                                                                                                      |
 | Vercel              | [Website](https://vercel.com/) - [Docs](https://vercel.com/docs) - [CLI Docs](https://vercel.com/docs/cli)                                                                                                                   |
 | Netlify             | [Website](https://www.netlify.com/) - [Docs](https://docs.netlify.com/) - [CLI Docs](https://cli.netlify.com/)                                                                                                               |
+| Storybook           | [Website](https://storybook.js.org/)                                                                                                                                                                                         |
 
 <!-- CNS-END-OF-TECHNOLOGIES-TABLE -->
 
@@ -108,6 +109,7 @@ FLAGS
   --react-icons                 Adds React Icons. (Icon library)
   --react-query                 Adds React Query. (Server state management
                                 library)
+  --storybook                   Adds Storybook. (Component library)
   --styling=<styling-method>    (required) Sets the preferred styling method.
                                 (Required) <styling-method> =
                                 emotion|styled-components|tailwind-css|css-modul
